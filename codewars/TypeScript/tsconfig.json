@@ -1,11 +1,12 @@
 {
     "compilerOptions": {
-      "module": "commonjs",
-      "target": "es6",
-      "checkJs": false
+        "lib":["ES2022"],
+        "module": "commonjs",
+        "target": "es6",
+        "checkJs": false
     },
     "exclude": [
-      "node_modules"
+        "node_modules"
     ]
-  }
+}
 
